@@ -1,0 +1,50 @@
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black solid;
+    border-radius: 5px;
+    width:30%;
+    height: 50vh;
+    margin-top: 20vh;
+}
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.des-text {
+    font-size: 80%;
+    margin-bottom: -1rem;
+    font-family: sans-serif;
+}
+.input-code {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+}
+input {
+    width: 8%;
+    font-size: 250%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 3%;
+    text-align: center;
+    border: 0.05px gray solid;
+    border-radius: 5%;
+}
+input:focus {
+    font-size: 260%;
+    border: transparent;
+    outline: 2px skyblue solid;
+    overflow: hidden;
+}
+input:required:valid {
+    outline: 2px skyblue solid;
+    border: transparent;
+    box-shadow: 0 3px 3px black;
+}
